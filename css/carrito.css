@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+input{
+		text-align: center;
+
+}
+
+/*Estilo barra de Tareas*/
+
+header{
+	width: 100%;
+	/*background: #AFEEEE;*/
+	background: rgba(1,1,1,.4);
+	height:70px; 
+	position: fixed;
+
+
+}
+
+/* Aqui estamos modificando el ancho */
+.ancho{
+	width: 80%;
+	height: 70px;
+	/*background: red;*/
+	margin: auto;
+
+}
+
+.logo{
+	width: 30%;
+	height: 70px;
+	/*background: blue;*/
+	float: left;
+	padding-top: 10px;
+	box-sizing: border-box;
+
+
+}
+
+.logo p a{
+	color: #fff;
+	font-size: 38px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: raley;
+
+
+
+}
+
+nav{
+	width: 70%;
+	height: 70px;
+	/*background: olive;*/
+	float: left;
+	text-align: right;
+	padding-top: 24px;
+    box-sizing: border-box;
+
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: raley;
+}
+
+nav ul li a:hover{
+	color: #444;
+}
+
+@font-face{
+	font-family: raley;
+	src:url(../fuentes/Lobster-Regular.ttf);
+}
+
+h1, h2,h4, h5, h6{
+	text-transform: uppercase;
+	color: #444;
+	font-family: raley;
+	letter-spacing: 1px;
+}
+
+h2{
+	font-size: 26px;
+	color: #333;	
+}
+
+h3{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	padding-top: 20px;
+	font-weight: normal;
+	color: #777;
+}
+
+h4{
+	margin-top: 15px;
+	font-size: 16px;
+}
+
+h5{
+	font-family: Lato,sans-serif;
+	line-height: 1.5;
+	font-weight: normal;
+	padding: 10px 0;
+	font-size: 12px;
+}
+
+p{
+	color: #888;
+	font-family: Lato,sans-serif;
+	font-size: 15px;
+}
+.wap{
+	width: 90%;
+	margin: auto;
+}
+
+.bienvenidos{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.contenedor-columnas{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.columnasx3{
+	width: 33.333%;
+	float: left;
+	padding: 20px 20px;
+	box-sizing: border-box;
+	margin: auto;
+}
+
+.columnasx3 img{
+	width: 100%
+}
